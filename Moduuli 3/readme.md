@@ -8,10 +8,10 @@ Löytyy hello.py
 
 
 ## Moduuli 2
-Tehty tehtävillw 1, 2, 3, 4, 5 ja 6 
+Tehty tehtävät 1, 2, 3, 4, 5 ja 6 
 
 
-Kysymys: Saisiko lisätehtäviä millä harjoitella, itse on hankalampi keksiä tehtäviä. Niin jos saisi valinnaisia tehtäviä ns. pakollisten kurssitehtävien lisäksi millä harjoitella.
+Kysymys: Saisiko lisätehtäviä millä harjoitella, itse on hankalampi keksiä tehtäviä. Niin jos saisi valinnaisia tehtäviä ns. pakollisten kurssitehtävien lisäksi millä harjoitella. Ja saisiko luentoja nauhoitettua, niin niitä voisi kerrata jälkikäteen.
 
 ## Moduuli 3 
 readme.md
