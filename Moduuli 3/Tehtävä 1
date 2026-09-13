@@ -1,0 +1,7 @@
+mitta = float(input ("Kerro kalan mitta sentteinä? "))
+
+if mitta < 37:
+    print ("Kala on alimittainen, sinulta puuttuu senttiä" , 37-mitta)
+
+else:
+    print ("Kala on sallitun mittainen")

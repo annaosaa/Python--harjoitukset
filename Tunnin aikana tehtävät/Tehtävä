@@ -1,0 +1,10 @@
+nimi = input (" Kerro nimesi? ")
+
+if nimi == "Matti":
+    print ("Seuraava, kiitos!")
+
+else:
+    keitto = int(input("Montako keittoannosta haluat: "))
+
+    hinta = float (keitto * 5.90)
+    print ("Kokonaishinta on", hinta, "euroa") 

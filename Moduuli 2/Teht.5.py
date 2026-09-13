@@ -1,4 +1,4 @@
-# Kysy käyttäkälyä keskiaiset mitat
+# Kysy käyttäjältä keskiaiset mitat
 leiviskat = float(input("Annan leiviskät: "))
 naulat = float(input("Anna naulat: "))
 luodit = float(input("Anna luodit: "))

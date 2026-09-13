@@ -11,7 +11,30 @@ Löytyy hello.py
 Tehty tehtävät 1, 2, 3, 4, 5 ja 6 
 
 
-Kysymys: Saisiko lisätehtäviä millä harjoitella, itse on hankalampi keksiä tehtäviä. Niin jos saisi valinnaisia tehtäviä ns. pakollisten kurssitehtävien lisäksi millä harjoitella. Ja saisiko luentoja nauhoitettua, niin niitä voisi kerrata jälkikäteen.
 
-## Moduuli 3 
+
+## Moduuli 3  
+
+Kotitehtävät 1, 2 , 3 ja 4 (torstain tunnilta)
+
 readme.md
+
+Oikea vastaus teht. 2 tässä muodossa
+
+import math
+
+#pii*r**2
+
+sade = float(input("Anna ympyrän säde: "))
+
+A = math.pi * sade **2
+
+print(f"Ympyrän pinta-ala on A: .2f)
+
+(selitys muuntofunktioille: float desimaaliluku ja int kokonaisluku)
+
+
+elif = joko tai
+
+
+# Tehtävä kansio sisältää tunnilla tehtyjä harjoitteita
