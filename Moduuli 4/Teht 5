@@ -1,0 +1,18 @@
+oikea_tunnus = "kayttaja"
+oikea_salasana = "salasana123"
+
+yrityksia = 0
+jatka = True
+
+while jatka:
+    tunnus = input("Käyttäjätunnus: ")
+    salasana = input("Salasana: ")
+    
+    if tunnus == oikea_tunnus and salasana == oikea_salasana:
+        print("Tervetuloa")
+        jatka = False
+    else:
+        yrityksia += 1
+        if yrityksia == 5:
+            print("Pääsy evätty")
+            jatka = False

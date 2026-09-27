@@ -1,0 +1,8 @@
+tuumaa = float(input("Anna tuumamäärä (negatiivinen lopettaa): "))
+
+while tuumaa >= 0:
+    cm = tuumaa * 2.54
+    print(f"{tuumaa} tuumaa on {cm} senttimetriä")
+    tuumaa = float(input("Anna tuumamäärä (negatiivinen lopettaa): "))
+
+print("Ohjelma lopetettu.")

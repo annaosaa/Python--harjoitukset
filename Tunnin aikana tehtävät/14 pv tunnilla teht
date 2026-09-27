@@ -1,0 +1,18 @@
+#tunti 14.9. tehtävä
+
+#TÄMÄ ON EHDOLLINEN TOISTORAKENNE ESIMERKKI:
+
+#ALUSTETAAN MUUTTUJAT / ARVOY
+
+hinta = 5
+kolikot = 0
+
+# EHTO KIRJOITETTU TOISTOLAUSEKKEESEEN
+
+while kolikot < hinta:
+    kolikot += 1
+    print("Annettu" , kolikot, "kolikkoa.")
+
+print("KIITOS NÄKEMIIN!")
+
+

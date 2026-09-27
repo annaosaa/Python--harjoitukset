@@ -1,0 +1,19 @@
+#YKSINKERTAINEN TOISTORAKENNE
+
+#ALUSTETAAN MUUTTUJAT 
+hinta = 5
+kolikot = 0
+
+#PÄIVITETÄÄN EHTOA
+
+while True:
+    kolikot += 1
+    print("Annettu", kolikot, "kolikkoa.")
+
+ #TARKISTA EHTO
+ 
+    if kolikot == hinta:
+        break
+
+print("KIITOS NÄKEMIIN!")
+

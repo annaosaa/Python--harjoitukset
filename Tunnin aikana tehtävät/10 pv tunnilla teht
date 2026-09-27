@@ -1,3 +1,5 @@
+#tunti 10.9. tehtävä
+
 nimi = input (" Kerro nimesi? ")
 
 if nimi == "Matti":
@@ -8,3 +10,5 @@ else:
 
     hinta = float (keitto * 5.90)
     print ("Kokonaishinta on", hinta, "euroa") 
+
+#TÄSSÄ KOODISSA ON VIKA DESIMAALEISSA TSEKKAA SE!!
