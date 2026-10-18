@@ -1,0 +1,11 @@
+nimet = []
+
+nimi = input("Anna joku nimi: ")
+
+
+while nimi != "":
+    nimet.append(nimi)
+    nimi = input("Anna joku nimi: ")
+
+for n in nimet:
+    print(f"Tervehdys, {n}!")

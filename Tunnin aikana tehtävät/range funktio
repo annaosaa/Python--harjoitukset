@@ -1,0 +1,47 @@
+for n in range (5, 0, -1):
+    print(n)
+
+numerot = list(range(1, 11))
+print(numerot)
+
+
+ostoslista = ["maito", "leipä", "juusto", "kahvi", "banaani"]
+
+print("Ostoslistasi:", ostoslista)
+
+while ostoslista:
+    tuote = input("Mikä tuote ostettiin? ")
+
+    if tuote in ostoslista:
+        ostoslista.remove(tuote)
+        print(f"{tuote} poistettu listalta.")
+
+        if ostoslista:
+            print("Jäljellä olevat tuotteet:", ostoslista)
+    else:
+        print(f"Tuotetta {tuote} ei ole ostoslistalla.")
+
+print("Kaikki tuotteet on ostettu.")
+
+#TOISEN ESIMERKKI
+ostoslista = ["maito", "leipä", "voi", "puuro"] # Tehty lista
+
+print(ostoslista) #Tulostetaan lista näkyville käyttäjälle
+
+while ostoslista: #while toistorakenne
+
+    ostos = input("Minkä tuotteen keräsit: ") #apumuuttuja 
+
+    if ostos in ostoslista: #apumuuttuja listalla
+
+        ostoslista.remove(ostos) #jos löytyy niin poistetaan listalta
+
+        print(f"{ostos} kerätty") #tulostetaan että on kerätty
+
+    else:
+
+        print("Ei ole tuote listalla") #jos ei listalla niin "virheilmoitus"
+
+    print("Keräämättä", ostoslista) #kerrotaan mitä vielä on keräämättä
+
+print("Lähde kassalle!") #kun while toistorakenne suoritettu loppuun niin tulostetaan tämä rivi

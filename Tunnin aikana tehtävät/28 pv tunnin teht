@@ -1,0 +1,12 @@
+nimet = ["Viivi", "Ahmed", "Pekka", "Olga", "Mary"]
+
+nimet2 = ["Matti", "Teppo"]
+
+nimet.extend(nimet2)
+print(nimet)
+
+if "Matti" in nimet:
+    print("Matin indeksi on" ,  nimet.extend("Matti"))
+
+else:
+    print("Mattia ei löytynyt!")

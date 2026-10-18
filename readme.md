@@ -123,3 +123,24 @@ else:
 VAIHDA OMA JÄRJESTYS 400 100 JA 4, JOS EKANA 4 NIIN SE EI ANNA OIKEAA TULOSTA!!
 
 Pelkät lainausmerkit on tyhjä merkkijono ""
+
+Moduuli 4 vastaus Teht 3 :
+
+luku = input("Anna luku (tyhjä lopettaa): ")
+
+pienin = luku
+suurin = luku
+
+while luku != "":
+    luku = float(luku)
+    
+    if pieni == luku or numero < pieni:
+        pieni = numero
+    if suuri == luku or numero > suuri:
+        suuri = luku
+    
+    luku = input("Anna luku (tyhjä lopettaa): ")
+
+
+print("Pienin luku: pieni")
+print("Suurin luku: suuri")

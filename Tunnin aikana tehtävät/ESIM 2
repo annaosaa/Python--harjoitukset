@@ -1,0 +1,8 @@
+list = ["punainen", "sininen", "vihrea", "keltainen", "oranssi", "violetti"]
+
+lempivari = input("Mikä on lempivärisi? ").strip().lower()
+
+if lempivari in list:
+    print(f"Väri {lempivari} löytyy listastani!")
+else:
+    print(f"Väriä {lempivari} ei löydy listastani.")
