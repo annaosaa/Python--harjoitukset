@@ -6,3 +6,5 @@ while tuumaa >= 0:
     tuumaa = float(input("Anna tuumamäärä (negatiivinen lopettaa): "))
 
 print("Ohjelma lopetettu.")
+
+#kokeilu vian korjaamiseksi

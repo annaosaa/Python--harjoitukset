@@ -11,3 +11,5 @@ while arvaus != arvottu_luku:
     arvaus = int(input("Arvaa uudelleen: "))
 
 print("Oikein")
+
+#kokeilu vian löytämiseksi

@@ -18,3 +18,5 @@ if pienin is not None:
     print(f"Suurin luku: {suurin}")
 else:
     print("Lukuja ei syötetty.")
+
+#kokeilu tallentaako muutoksia
