@@ -1,10 +1,8 @@
-from math import sqrt
+def laske_summa(lista):
+    summa = 0
+    for luku in lista:
+        summa += luku
+    return summa
 
-luku = int(input("Anna kokonaisluku: "))
-
-while luku != 0:
-    if luku < 0:
-        print("Virheellinen numero")
-    else:
-        print(sqrt(luku))
-    luku = int(input("Anna kokonaisluku: "))
+luvut = [4, 8, 15, 16, 23, 42]
+print("Summa on", laske_summa(luvut))

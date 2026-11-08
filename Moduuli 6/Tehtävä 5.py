@@ -1,8 +1,12 @@
-tarina = ""
-sana = input("Anna sana lisättäväksi tarinaan: ")
+def karsi_parittomat(lista):
+    uusi_lista = []
+    for luku in lista:
+        if luku % 2 == 0:
+            uusi_lista.append(luku)
+    return uusi_lista
 
-while sana != "loppu":
-    tarina = tarina + sana + " "
-    sana = input("Anna sana lisättäväksi tarinaan: ")
+luvut = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+karsittu = karsi_parittomat(luvut)
 
-print(tarina)
+print("Alkuperäinen lista:", luvut)
+print("Karsittu lista:", karsittu)

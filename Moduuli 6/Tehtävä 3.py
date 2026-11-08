@@ -1,7 +1,9 @@
-vastaus = ""
+def gallonat_litroiksi(gallonat):
+    return gallonat * 3.785
 
-while vastaus != "Ei":
-    print("Tuote valmistettu!")
-    vastaus = input("Jatketaanko tuotantoa? ")
+gallonat = float(input("Anna gallonamäärä: "))
 
-print("Tuotanto lopetettu!")
+while gallonat >= 0:
+    litrat = gallonat_litroiksi(gallonat)
+    print(gallonat, "gallonaa on", litrat, "litraa")
+    gallonat = float(input("Anna gallonamäärä: "))

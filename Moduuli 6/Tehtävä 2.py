@@ -1,8 +1,13 @@
-luku = int(input("Anna kokonaisluku: "))
+import random
 
-if luku % 3 == 0 and luku % 5 == 0:
-    print("jaollinen molemmilla luvuilla!")
-elif luku % 3 == 0:
-    print("kolmella jaollinen")
-elif luku % 5 == 0:
-    print("viidellä jaollinen")
+def heita_noppaa(tahkot):
+    return random.randint(1, tahkot)
+
+maksimi = int(input("Anna nopan tahkojen määrä: "))
+
+heitto = heita_noppaa(maksimi)
+print(heitto)
+
+while heitto != maksimi:
+    heitto = heita_noppaa(maksimi)
+    print(heitto)

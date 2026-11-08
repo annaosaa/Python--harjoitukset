@@ -37,6 +37,15 @@ elif = joko tai
 ## Moduuli 4
 Tehtävät 1-6 tehtyinä
 
+## Moduuli 5
+tehdyt tehtävät
+
+## kertaustehtävät
+tehdyt kertaustehtävät
+
+## Moduuli 6
+tehty tehtävät 1-6
+
 
 # Tehtävä kansio sisältää tunnilla tehtyjä harjoitteita
 
